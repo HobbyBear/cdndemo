@@ -1,0 +1,5 @@
+2023/06/14 05:01:11 [emerg] 1#1: host not found in upstream "source-server" in /etc/nginx/nginx.conf:27
+2023/06/15 02:35:50 [error] 29#29: *1 "/static/index.html" is not found (2: No such file or directory), client: 172.22.0.1, server: , request: "GET / HTTP/1.1", host: "web.cdn.internal.test"
+2023/06/15 02:35:54 [error] 29#29: *1 open() "/static/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "web.cdn.internal.test", referrer: "http://web.cdn.internal.test/"
+2023/06/15 02:37:36 [error] 29#29: *6 open() "/static/favicon.ico" failed (2: No such file or directory), client: 172.22.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "web.cdn.test", referrer: "http://web.cdn.test/static/1751686481758_.pic.jpg"
+2023/06/15 02:47:24 [emerg] 1#1: "proxy_cache" zone "lanpangzi-cache" is unknown in /etc/nginx/nginx.conf:27

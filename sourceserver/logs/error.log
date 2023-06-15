@@ -1,0 +1,2 @@
+2023/06/14 04:53:56 [error] 30#30: *2 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 172.20.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8080"
+2023/06/14 04:53:56 [error] 30#30: *2 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8080", referrer: "http://127.0.0.1:8080/"

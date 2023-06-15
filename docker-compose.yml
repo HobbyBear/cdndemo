@@ -1,0 +1,23 @@
+version: "3"
+services:
+  sourceserver:
+    image: nginx:latest
+    container_name: source-server
+    hostname: source-server
+    ports:
+      - '8080:80'
+    volumes:
+      - ./sourceserver/nginx.conf:/etc/nginx/nginx.conf
+      - ./sourceserver/logs:/var/log/nginx
+      - ./sourceserver/imgs:/imgs
+
+  edgenode:
+    image: nginx:latest
+    container_name: edgenode
+    hostname: edgenode
+    ports:
+      - '80:80'
+    volumes:
+      - ./edgenode/nginx.conf:/etc/nginx/nginx.conf
+      - ./edgenode/logs:/var/log/nginx
+      - ./edgenode/cache:/cache
