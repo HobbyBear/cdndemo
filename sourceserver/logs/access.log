@@ -1,6 +1,0 @@
-172.20.0.1 - - [14/Jun/2023:04:53:56 +0000] "GET / HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" "-"
-172.20.0.1 - - [14/Jun/2023:04:53:56 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://127.0.0.1:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" "-"
-172.20.0.1 - - [14/Jun/2023:04:54:21 +0000] "GET /static/1751686481758_.pic.jpg HTTP/1.1" 200 634307 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" "-"
-172.22.0.2 - - [14/Jun/2023:05:07:19 +0000] "GET /static/1751686481758_.pic.jpg HTTP/1.0" 200 634307 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" "-"
-172.22.0.3 - - [15/Jun/2023:02:38:00 +0000] "GET /static/1771686486193_.pic.jpg HTTP/1.0" 200 386658 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" "-"
-172.22.0.2 - - [15/Jun/2023:02:48:45 +0000] "GET /static/1771686486193_.pic.jpg HTTP/1.0" 200 386658 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" "-"
